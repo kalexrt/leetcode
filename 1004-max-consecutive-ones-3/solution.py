@@ -1,7 +1,7 @@
 from collections import deque
 
 class Solution:
-    def longestOnes(self, nums: List[int], k: int) -> int:
+    def longestOnes(self, nums: list[int], k: int) -> int:
         zero_idx = deque()
         max:int = 0
         count:int = 0
